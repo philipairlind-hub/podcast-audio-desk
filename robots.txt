@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://philipairlind-hub.github.io/podcast-audio-desk/sitemap.xml
