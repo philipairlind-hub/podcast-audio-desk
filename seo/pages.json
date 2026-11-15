@@ -1,0 +1,610 @@
+{
+  "site": {
+    "brand": "Podcast Audio Desk",
+    "base": "https://philipairlind-hub.github.io/podcast-audio-desk",
+    "email": "shopairlind@gmail.com",
+    "footnote": "Independent remote audio post-production · Aarhus, Denmark",
+    "palette": {
+      "bg": "#f5f8f5",
+      "text": "#173231",
+      "card": "#ffffff",
+      "card2": "#e4f2ed",
+      "muted": "#4e6864",
+      "accent": "#146c61",
+      "accent2": "#2ca491",
+      "onaccent": "#ffffff",
+      "glow": "rgba(64,169,141,.15)",
+      "note": "#eaf3ef",
+      "border": "#d3e1dc"
+    },
+    "nav": [
+      {
+        "name": "Home",
+        "slug": ""
+      },
+      {
+        "name": "Pricing",
+        "slug": "podcast-editing-pricing"
+      },
+      {
+        "name": "For agencies",
+        "slug": "podcast-editing-for-agencies"
+      },
+      {
+        "name": "Checklist",
+        "slug": "podcast-audio-checklist"
+      },
+      {
+        "name": "Guides",
+        "slug": "guides"
+      }
+    ],
+    "hub_title": "Better podcast audio starts with a clearer brief",
+    "hub_seo_title": "Podcast Editing Guides: Cleanup, Loudness & Costs | Philip Lind",
+    "hub_description": "Direct, usable guides for interview editing, noise problems, speaker levels, final-file delivery and weekly handoffs. No fabricated success stories or inflated promises.",
+    "og_image": "https://philipairlind-hub.github.io/podcast-audio-desk/assets/og.png",
+    "cta": {
+      "heading": "Check your episode for the $99 audio pilot",
+      "description": "Audio-only editing, up to 45 raw minutes and two separate speaker tracks, one minor revision and a four-business-day target after accepted files. Written scope before payment.",
+      "label": "Request a pilot scope check",
+      "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#contact"
+    }
+  },
+  "pages": [
+    {
+      "slug": "interview-podcast-audio-editing",
+      "category": "Interview audio editing",
+      "title": "How a two-person interview becomes a publish-ready podcast",
+      "seo_title": "Interview Podcast Audio Editing: A Practical Workflow | Philip Lind",
+      "description": "A practical audio-only interview podcast editing workflow: separate voices, marked cuts, EQ, cleanup, consistent speech levels and WAV/MP3 handoff.",
+      "intro": "An interview is often compelling before it is technically comfortable to hear. The editing job is to protect the conversation while removing distractions and making both voices sit together.",
+      "sections": [
+        {
+          "heading": "Start from separately recorded speakers",
+          "paragraphs": [
+            "When possible, keep the host and guest on separate tracks. Listen to each before processing and note clipping, room noise, inconsistent mic distance and accidental overlap. A mixed single file limits how independently each voice can be treated."
+          ],
+          "bullets": [
+            "Preserve original files and the source duration.",
+            "Record which person is on which track.",
+            "Check timing drift before detailed editing."
+          ]
+        },
+        {
+          "heading": "Confirm what content should stay",
+          "paragraphs": [
+            "Technical finishing is different from deciding the narrative. If the host already has a cut, use that approved version and make only the marked minor trims. Extensive story restructuring, filler-word deletion or rewriting transitions should be separately scoped."
+          ]
+        },
+        {
+          "heading": "Clean without making voices unnatural",
+          "paragraphs": [
+            "Use modest EQ to improve intelligibility, reduce constant background noise where safe, and control sudden level jumps. Aggressive denoising can create metallic artifacts, while over-compression makes speech tiring."
+          ],
+          "example": "HANDOFF EXAMPLE\nHost.wav      38:20 raw\nGuest.wav     38:20 raw\nCut notes     03:41 false start; 17:22 repeat\nTarget        stereo WAV + listening MP3\nRevision      1 round of bounded corrections"
+        },
+        {
+          "heading": "Listen to the transitions, not only peaks",
+          "paragraphs": [
+            "Compare speaker switches, opening music, silence and closing sections at realistic listening volume. Integrated loudness statistics help but cannot replace listening, particularly where one voice is much quieter."
+          ]
+        },
+        {
+          "heading": "Get an audio-only first episode scoped",
+          "paragraphs": [
+            "Podcast Audio Desk offers a $99 pilot for up to 45 minutes raw material across two speaker tracks, with one minor revision and a target of four business days after usable inputs. It does not include video or publishing."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Check your episode for the $99 audio pilot",
+        "description": "Audio-only editing, up to 45 raw minutes and two separate speaker tracks, one minor revision and a four-business-day target after accepted files. Written scope before payment.",
+        "label": "Request a pilot scope check",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#contact"
+      },
+      "art_title": "TWO / VOICES",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-dialogue-cleanup-guide",
+      "category": "Audio editing",
+      "title": "Podcast dialogue cleanup without robotic voices",
+      "seo_title": "Podcast Dialogue Cleanup: EQ, Noise & Dynamics | Philip Lind",
+      "description": "Learn the order of operations for spoken-word podcast dialogue cleanup: source inspection, gentle filtering, voice matching and listening checks.",
+      "intro": "A podcast microphone can pick up hum, room tone and plosives alongside useful speech. Good cleanup improves clarity while leaving the voice believable and the recording easy to listen to.",
+      "sections": [
+        {
+          "heading": "Listen before reaching for an effect",
+          "paragraphs": [
+            "Solo each track and identify the actual problem. A constant low hum, brief click, harsh sibilance and distant room echo require different approaches. If the source contains clipped words, no general filter can reliably recreate them."
+          ]
+        },
+        {
+          "heading": "Try small, measurable changes",
+          "paragraphs": [
+            "High-pass filtering can reduce unnecessary low-frequency noise in suitable voices; EQ can tame honk or harshness; dynamics can reduce level variation. Apply only what the recording needs and compare with the same perceived loudness."
+          ],
+          "bullets": [
+            "Save an untreated reference copy.",
+            "Process one speaker at a time.",
+            "A/B the exact same sentence with effects on and off.",
+            "Check consonants and pauses for new artifacts."
+          ]
+        },
+        {
+          "heading": "Treat noise reduction as a trade-off",
+          "paragraphs": [
+            "Broad denoising can remove hiss but also smear speech or leave pulsing artifacts. Use modest strength first and manually repair the most disruptive moments rather than pursuing completely silent pauses."
+          ],
+          "example": "Problem → likely first check\nsteady hum → inspect source/low-frequency content\nspeaker too soft → compare level and mic distance\nclick in silence → localized edit\nheavy echo → restoration may be limited, rescope if needed"
+        },
+        {
+          "heading": "Balance speakers before final loudness",
+          "paragraphs": [
+            "A consistent overall loudness target does not fix a guest who is six decibels quieter in individual passages. Smooth the apparent balance between speakers with track-level correction before final delivery processing."
+          ]
+        },
+        {
+          "heading": "Know when professional repair exceeds a pilot",
+          "paragraphs": [
+            "Severe echo, clipping, overlapping speech, expensive restoration and extensive narrative edits are not included by default in the $99 audio-only pilot. An honest scope review may recommend a new recording instead."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Hear the method before committing",
+        "description": "The before/after files are deliberately degraded, synthetic speech used to demonstrate cleanup—not a real client recording or a guaranteed outcome.",
+        "label": "Listen to the labelled demo",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#samples"
+      },
+      "art_title": "CLEAN / VOICE",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-loudness-and-level-matching",
+      "category": "Audio editing",
+      "title": "Match podcast host and guest loudness without over-compression",
+      "seo_title": "Podcast Loudness & Speaker Level Matching | Philip Lind",
+      "description": "Practical spoken-word podcast level matching: speaker consistency, loudness measurement, peaks, dialogue dynamics and export checks.",
+      "intro": "If a listener has to keep reaching for the volume control every time the guest speaks, a technically valid MP3 still feels unfinished. Speaker balance comes before any single final loudness number.",
+      "sections": [
+        {
+          "heading": "Separate peak meters from perceived level",
+          "paragraphs": [
+            "Peak level shows the highest signal samples; perceived loudness depends on how sound carries over time. Two people can have similar peaks yet feel very different in volume. Use both ears and appropriate metering."
+          ]
+        },
+        {
+          "heading": "Balance each speaker in context",
+          "paragraphs": [
+            "Listen to quiet words and energetic passages from each voice. Gently adjust individual clips or tracks before applying a shared limiter. When one person varies sharply, an automated global gain may miss the problem."
+          ],
+          "example": "Host (normal conversation): sounds consistent\nGuest (normal conversation): sounds too quiet\n\nFix: treat the guest source and automate phrases.\nNot fix: raise whole final MP3 until peaks distort."
+        },
+        {
+          "heading": "Avoid flattening the emotion",
+          "paragraphs": [
+            "Over-compression can make breaths and room noise conspicuous while removing natural conversational dynamics. A controlled recording is not meant to sound like a constant wall of volume."
+          ]
+        },
+        {
+          "heading": "Check the opening and closing",
+          "paragraphs": [
+            "Music stings and intros can be much louder than speech. Listen through speaker-to-music transitions at normal volume, then verify delivered files for unexpected clipping and encoder effects."
+          ]
+        },
+        {
+          "heading": "Ask for a consistent weekly profile",
+          "paragraphs": [
+            "A recurring show benefits from a sound reference that reflects the host's actual microphone and listening priorities. Podcast Audio Desk can apply an agreed approach across similar episodes in the $399 four-episode manual arrangement, after a paid trial."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Agree on a repeatable audio handoff",
+        "description": "A $99 bounded first episode can establish the process; a four-episode service is listed at $399 per 30 days, manually agreed and not auto-renewing.",
+        "label": "See agency editing scope",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/podcast-editing-for-agencies/"
+      },
+      "art_title": "LEVEL / MATCH",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-noise-reduction-limits",
+      "category": "Audio editing",
+      "title": "What podcast noise reduction can—and cannot—repair",
+      "seo_title": "Podcast Noise Reduction Limits: Hiss, Echo & Clipping | Philip Lind",
+      "description": "Understand which podcast audio problems can often be improved and when noise reduction, EQ or restoration cannot rescue a recording.",
+      "intro": "The best processing starts with a realistic assessment. A steady background noise is not the same problem as clipped syllables, a loud dog bark across speech or a microphone recording from across the room.",
+      "sections": [
+        {
+          "heading": "Often improvable: stable background noise",
+          "paragraphs": [
+            "Constant hiss, low rumble and some air-conditioning noise may respond to careful filtering and spectral reduction. The safe amount depends on the voice and source. Always check that consonants and quiet words remain intact."
+          ]
+        },
+        {
+          "heading": "Case-by-case: clicks, plosives and brief intrusions",
+          "paragraphs": [
+            "A localized click between words may be removable. A sudden sound on top of a vowel can obscure content that cannot be reconstructed. Repair decisions should prioritize intelligibility over perfectly clean silence."
+          ],
+          "example": "Recording issue           Typical decision\n-----------------------   ----------------------------\nsteady low hum            assess/filter carefully\noccasional mouth click    localized edit where possible\nsevere room reverb        limited improvement; quote separately\nclipped missing syllable  cannot promise recovery\nsimultaneous crosstalk    may need accept or rerecord"
+        },
+        {
+          "heading": "Hard limits: distortion and missing speech",
+          "paragraphs": [
+            "Hard clipping and heavily distant or reverberant recordings can permanently obscure detail. An editor should not claim to restore words that were never captured cleanly. Re-recording a short section may be the most efficient fix."
+          ]
+        },
+        {
+          "heading": "Make a transparent acceptance decision",
+          "paragraphs": [
+            "Listen to a short authorized nonconfidential sample before taking the paid job. State whether the objective is 'less distracting', 'more intelligible' or 'broadcast-ready'—each is a different promise."
+          ]
+        },
+        {
+          "heading": "Our synthetic demo is not a client result",
+          "paragraphs": [
+            "Podcast Audio Desk publishes a before/after processing demonstration on artificially degraded, computer-generated speech. It is labelled precisely to avoid implying guaranteed restoration of authentic microphone damage."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Hear the method before committing",
+        "description": "The before/after files are deliberately degraded, synthetic speech used to demonstrate cleanup—not a real client recording or a guaranteed outcome.",
+        "label": "Listen to the labelled demo",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#samples"
+      },
+      "art_title": "FIX / LIMIT",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "wav-mp3-podcast-mastering",
+      "category": "Audio editing",
+      "title": "WAV or MP3 for podcast delivery? Save both for the right reason",
+      "seo_title": "WAV vs MP3 Podcast Mastering & Delivery | Philip Lind",
+      "description": "Compare uncompressed WAV delivery with compressed MP3 for podcasts, and prepare sensible final files for a human-reviewed audio workflow.",
+      "intro": "Export format is the last part of the edit, but it can determine whether the handoff is easy to review, archive and publish. A source WAV and a publishable MP3 serve different purposes.",
+      "sections": [
+        {
+          "heading": "WAV for a high-quality handoff",
+          "paragraphs": [
+            "WAV typically carries uncompressed PCM audio and is useful as an editing archive or source for future mastering. It is larger, so the recipient should specify sample rate and word length rather than guessing."
+          ]
+        },
+        {
+          "heading": "MP3 for convenient preview and distribution",
+          "paragraphs": [
+            "MP3 is a lossy compressed audio format commonly used for listening and many podcast publication workflows. The platform or publisher may have specific requirements; follow those instead of relying on a universal bit rate."
+          ]
+        },
+        {
+          "heading": "Check consistency before exporting",
+          "paragraphs": [
+            "Verify channel layout, start and end trims, loudness, maximum peaks and deliberate music fades. Listen again to the MP3 because encoding can reveal problems not obvious during editing."
+          ],
+          "example": "FINAL HANDOFF (illustrative)\nshow_021_master.wav — high-quality source archive\nshow_021_listen.mp3 — playback/review copy\nshow_021_notes.txt  — listed delivery checks\n\nNames are examples; agree format with the client."
+        },
+        {
+          "heading": "Avoid unnecessary conversions",
+          "paragraphs": [
+            "Repeated conversions from MP3 to WAV and back do not recover information lost in the original MP3. If you have lossless source recordings, preserve them before processing."
+          ]
+        },
+        {
+          "heading": "What our $99 pilot delivers",
+          "paragraphs": [
+            "A scoped audio-only Podcast Audio Desk pilot includes final WAV and MP3 files and one minor revision. Special stems, multiple mix versions, captions and publication to hosting platforms are outside the standard scope."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Check your episode for the $99 audio pilot",
+        "description": "Audio-only editing, up to 45 raw minutes and two separate speaker tracks, one minor revision and a four-business-day target after accepted files. Written scope before payment.",
+        "label": "Request a pilot scope check",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#contact"
+      },
+      "art_title": "WAV / MP3",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "weekly-podcast-editing-workflow",
+      "category": "Weekly production",
+      "title": "A repeatable weekly podcast audio editing workflow",
+      "seo_title": "Weekly Podcast Editing Workflow & Four-Episode Plan | Philip Lind",
+      "description": "Set a sustainable weekly podcast audio workflow with consistent source handoff, fixed revision rules and a manually agreed $399 four-episode plan.",
+      "intro": "A weekly podcast needs fewer last-minute messages, not more heroic editing sessions. The practical advantage of a repeatable handoff is that the editor receives the same type of files and instructions each week.",
+      "sections": [
+        {
+          "heading": "Design the handoff once",
+          "paragraphs": [
+            "Agree how files are named, what raw duration is typical, how many separate voice tracks arrive and which cuts are already approved. Use a secure transfer method appropriate to the content."
+          ]
+        },
+        {
+          "heading": "Use an episode-specific brief",
+          "paragraphs": [
+            "A short written brief should include episode ID, intended release date, file locations, intro/outro references, approved content cuts, preferred reference sound and contact for one revision."
+          ],
+          "example": "EPISODE: Weekly 021\nRECEIVED: Host.wav, Guest.wav, edit-notes.txt\nRAW: 37 minutes across 2 tracks\nCUTS: 03:21 false start; 11:58 long pause\nDELIVERY: stereo WAV + MP3\nDEADLINE: agreed in advance"
+        },
+        {
+          "heading": "Batch decisions, not hidden extra work",
+          "paragraphs": [
+            "If an episode suddenly has a third speaker track, hours of damaged audio or a long narrative rewrite, agree a new scope before starting. A monthly rate should not imply unlimited repair or unlimited revisions."
+          ]
+        },
+        {
+          "heading": "Keep a reference sound for quality control",
+          "paragraphs": [
+            "Save a clear example of the preferred speech balance, room tone and intro/outro. Compare each new episode against that reference without treating a single measurement as a replacement for listening."
+          ]
+        },
+        {
+          "heading": "Try the first episode before recurring production",
+          "paragraphs": [
+            "Podcast Audio Desk lists a $99 pilot and a $399 four-episode service for similarly scoped episodes per 30 days. Monthly production is arranged manually after fit and capacity checks; it is not an automated subscription."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Agree on a repeatable audio handoff",
+        "description": "A $99 bounded first episode can establish the process; a four-episode service is listed at $399 per 30 days, manually agreed and not auto-renewing.",
+        "label": "See agency editing scope",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/podcast-editing-for-agencies/"
+      },
+      "art_title": "WEEK / FOUR",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-audio-editor-vs-producer",
+      "category": "Prices & scope",
+      "title": "Do you need a podcast audio editor or a full producer?",
+      "seo_title": "Podcast Audio Editor vs Producer: Scope & Cost | Philip Lind",
+      "description": "Compare audio-only editing, podcast production, video editing, show notes and publishing to choose the service your show actually needs.",
+      "intro": "A vendor who offers everything can still be a poor match when you need one narrow job done reliably. Separate the recorded conversation, editorial decisions, audio finishing and distribution.",
+      "sections": [
+        {
+          "heading": "Audio editor: make supplied recordings listenable",
+          "paragraphs": [
+            "An audio-only editor cleans dialogue, balances speakers, handles basic marked trims, masters the audio and provides approved final files. They typically work from material recorded and selected by the host."
+          ]
+        },
+        {
+          "heading": "Podcast producer: broader creative ownership",
+          "paragraphs": [
+            "A producer may help plan episodes, direct interviews, work with hosts, edit stories, source music, schedule guests or oversee delivery. The exact responsibilities vary by agreement and often cost more than a bounded finishing pass."
+          ]
+        },
+        {
+          "heading": "Video editor: a separate workflow",
+          "paragraphs": [
+            "Camera switching, subtitles, social shorts, vertical graphics and upload formatting introduce a different set of decisions and source requirements. Hiring an audio finisher does not automatically cover those tasks."
+          ],
+          "example": "NEED                         MATCHING SERVICE\nClean a host/guest WAV pair  Audio-only editor\nBook guests and plan show    Producer/assistant\nCut multicam video          Video editor\nMake 8 short clips          Social clip editor\nFix badly clipped words     Feasibility assessment first"
+        },
+        {
+          "heading": "Ask for outputs and limits in writing",
+          "paragraphs": [
+            "A helpful quote lists raw duration, track count, level of content edits, revisions, final formats and turnaround. Compare these terms rather than only the per-episode price."
+          ]
+        },
+        {
+          "heading": "Our current offer stays narrow",
+          "paragraphs": [
+            "Podcast Audio Desk focuses on audio-only post-production, with a $99 single-episode pilot and a manually agreed $399 four-episode plan. No video, bookings, show notes or automatic publishing are included."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Compare scope, not just the headline price",
+        "description": "The $99 option is for bounded audio post-production, not unlimited editing, video clips, publishing or badly damaged source restoration.",
+        "label": "Review exact pricing",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/podcast-editing-pricing/"
+      },
+      "art_title": "ROLE / SCOPE",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-editing-handoff-template",
+      "category": "Weekly production",
+      "title": "Copy-ready audio editor handoff template for podcasts",
+      "seo_title": "Podcast Audio Editor Handoff Template | Philip Lind",
+      "description": "Use a concrete podcast editing handoff template with recording duration, track count, cut notes, intro/outro permissions, delivery formats and deadlines.",
+      "intro": "Clear instructions let a small audio editor spend more time listening and less time chasing missing files. The best handoff fits on one page and answers all the questions needed before work begins.",
+      "sections": [
+        {
+          "heading": "What the editor needs to know",
+          "paragraphs": [
+            "Include one owner contact, the approved episode title, source location, raw duration, separate track names, intended final length if known, delivery deadline and any content timestamps that matter."
+          ],
+          "bullets": [
+            "Use nonconfidential metadata for the first quote.",
+            "Agree on a secure upload before sending private recordings.",
+            "Identify one person authorized to approve revisions."
+          ]
+        },
+        {
+          "heading": "A copy-ready handoff structure",
+          "paragraphs": [
+            "Paste the example into a note or email and replace placeholders with your actual instructions. It avoids giving a stranger store logins, social credentials or other unnecessary access."
+          ],
+          "example": "SHOW / EPISODE:\nSOURCE RECORDING TOOL:\nRAW DURATION / FILE COUNT:\nSPEAKER TRACKS:\nCONTENT CUTS WITH TIMESTAMPS:\nINTRO / OUTRO / MUSIC RIGHTS CONFIRMED:\nREFERENCE EPISODE LINK:\nWAV / MP3 DELIVERY SPECS:\nTARGET DATE AND TIMEZONE:\nREVISION APPROVER:\nOTHER NONCONFIDENTIAL NOTES:"
+        },
+        {
+          "heading": "Separate blockers from preferences",
+          "paragraphs": [
+            "Missing or damaged source files can block an edit; a preference about music fade timing can often be handled during the revision. Label each note as must-fix, optional or requires clarification."
+          ]
+        },
+        {
+          "heading": "Protect version history",
+          "paragraphs": [
+            "Retain a copy of the accepted source, first delivery and final revision. Name the revision clearly so the editor and host do not publish the wrong version."
+          ]
+        },
+        {
+          "heading": "Attach a bounded paid pilot",
+          "paragraphs": [
+            "If the source fits, the Podcast Audio Desk $99 pilot accepts up to 45 minutes of raw source audio across two tracks, one minor revision and a target four-business-day delivery. Bigger or damaged sessions need a separate scope."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Check your episode for the $99 audio pilot",
+        "description": "Audio-only editing, up to 45 raw minutes and two separate speaker tracks, one minor revision and a four-business-day target after accepted files. Written scope before payment.",
+        "label": "Request a pilot scope check",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#contact"
+      },
+      "art_title": "BRIEF / COPY",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "two-track-podcast-editing",
+      "category": "Interview audio editing",
+      "title": "Why separate podcast speaker tracks improve the edit",
+      "seo_title": "Two-Track Podcast Audio Editing: Host & Guest | Philip Lind",
+      "description": "How two separate speaker tracks simplify podcast audio leveling, cleanup, timing and revisions compared with a mixed recording.",
+      "intro": "The technical benefit of recording each speaker separately is control. You can correct one noisy room or quiet guest without applying the same processing to every voice at once.",
+      "sections": [
+        {
+          "heading": "What counts as a separate speaker track?",
+          "paragraphs": [
+            "Ideally, each person has an isolated audio recording aligned in time with the rest of the conversation. A left/right stereo mix of two voices is not always the same as two clean individual files."
+          ]
+        },
+        {
+          "heading": "Inspect the tracks before processing",
+          "paragraphs": [
+            "Compare durations, identify silent gaps and verify that the host and guest remain synchronized. Listen for echo from headphones and overlapping speech, which can leak across tracks even in a nominally separate recording."
+          ],
+          "example": "HOST.wav    [speech][pause][speech][speech]\nGUEST.wav   [pause][speech][pause][speech]\n\nEdit one voice without unnecessarily altering the other.\nIf both voices are baked into one mix, options are narrower."
+        },
+        {
+          "heading": "Balance voices independently",
+          "paragraphs": [
+            "A quiet guest can be leveled without boosting the host's background noise. EQ changes for the host need not be imposed on the guest. Natural voice differences should remain; the aim is comfortable listening."
+          ]
+        },
+        {
+          "heading": "Avoid accidental timing drift",
+          "paragraphs": [
+            "Do not delete sections independently from only one track without checking sync. When removing a long pause or a false start, maintain the intended conversational timing across tracks."
+          ]
+        },
+        {
+          "heading": "Limit the pilot to a realistic source",
+          "paragraphs": [
+            "The $99 Podcast Audio Desk pilot is specified for up to 45 minutes of raw material and two separate speaker tracks. Three-person sessions, unusually complex restoration or long edits are separately assessed rather than silently forced into the same quote."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Check your episode for the $99 audio pilot",
+        "description": "Audio-only editing, up to 45 raw minutes and two separate speaker tracks, one minor revision and a four-business-day target after accepted files. Written scope before payment.",
+        "label": "Request a pilot scope check",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/#contact"
+      },
+      "art_title": "2 / TRACKS",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "outsourcing-podcast-editing-agency",
+      "category": "Agency workflow",
+      "title": "How podcast agencies can outsource audio finishing safely",
+      "seo_title": "Outsource Podcast Audio Editing to a Remote Specialist | Philip Lind",
+      "description": "A practical agency handoff for white-label audio-only podcast finishing: define scope, protect confidential files and test a bounded paid episode.",
+      "intro": "Small podcast agencies can lose time to regular dialogue cleanup even when clients are happy with the content. A narrow remote finishing partner may help—but only if the handoff, rights and quality expectations are explicit.",
+      "sections": [
+        {
+          "heading": "Define the outside editor's responsibility",
+          "paragraphs": [
+            "Make an exact list of what the contractor changes: noise cleanup, vocal EQ, level matching, specified cuts, WAV/MP3 delivery and the bounded revision. Keep client strategy, creative approval and other production services with the agency unless otherwise agreed."
+          ]
+        },
+        {
+          "heading": "Start with a paid, low-risk reference episode",
+          "paragraphs": [
+            "Choose one episode whose recording format is typical and share a nonconfidential short sample for scope assessment. Complete a paid test before committing to a weekly throughput promise."
+          ]
+        },
+        {
+          "heading": "Set the data and confidentiality boundary",
+          "paragraphs": [
+            "Agree who can access source audio, where files may be transferred, what may be stored, how long files are retained and what may be shared as portfolio material. No client files should be put into an unapproved public demo."
+          ],
+          "example": "Agency → approved cut + two speaker tracks\nEditor → cleanup, level match, WAV/MP3\nAgency → final approval + customer delivery\n\nNo public case study or client disclosure without permission."
+        },
+        {
+          "heading": "Work asynchronously when useful",
+          "paragraphs": [
+            "Clear written briefs and a stable transfer process can be more effective than recurring meetings. Confirm turnaround and revision times in the client's timezone and allow for file availability before deadlines."
+          ]
+        },
+        {
+          "heading": "Honest commercial scope",
+          "paragraphs": [
+            "Our $99 single-episode pilot is capped at 45 raw minutes/two tracks; the $399 manually agreed four-episode plan covers similarly scoped audio. White-label work requires a written agreement; no guaranteed 24/7 response or unlimited capacity is claimed."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Agree on a repeatable audio handoff",
+        "description": "A $99 bounded first episode can establish the process; a four-episode service is listed at $399 per 30 days, manually agreed and not auto-renewing.",
+        "label": "See agency editing scope",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/podcast-editing-for-agencies/"
+      },
+      "art_title": "B2B / AUDIO",
+      "art_tag": "AUDIO ONLY"
+    },
+    {
+      "slug": "podcast-audio-vs-video-editing",
+      "category": "Prices & scope",
+      "title": "Audio-only podcast editing versus video podcast production",
+      "seo_title": "Audio vs Video Podcast Editing: What's Included? | Philip Lind",
+      "description": "Understand where audio-only podcast post-production stops and video editing, social clips, captions and uploading begin.",
+      "intro": "The phrase 'podcast editing' is often used for two different jobs. A weekly audio show needs clear dialogue and a good listening experience; a video show also needs camera, picture and publishing decisions.",
+      "sections": [
+        {
+          "heading": "Audio-only work",
+          "paragraphs": [
+            "A spoken-word audio editor typically treats the supplied recording, trims agreed material, balances voices and delivers final WAV/MP3. The number and quality of speaker tracks determine much of the difficulty."
+          ]
+        },
+        {
+          "heading": "Video podcast editing",
+          "paragraphs": [
+            "Camera switching, framing, color, video sync, subtitles, motion graphics, B-roll and short-form excerpts require separate source files and extra production time. Even if sound is involved, these should be priced and specified independently."
+          ],
+          "example": "Audio-only: two dialogue tracks → one finished stereo master.\nVideo: cameras + dialogue + visual cuts + titles + exports.\nSocial: selected clips + vertical reframing + captions.\n\nThree different deliverable sets."
+        },
+        {
+          "heading": "Decide which problem you actually have",
+          "paragraphs": [
+            "If listeners complain about uneven microphone levels, start with an audio post-production pass. If viewers complain about jump cuts or unappealing framing, a video editor is the correct specialist. Avoid buying a larger package by default."
+          ]
+        },
+        {
+          "heading": "Agree milestones and export formats",
+          "paragraphs": [
+            "For audio delivery, define WAV/MP3, target release date and revision scope. For video, add resolution, aspect ratios, caption requirements, social cut count and export codecs. This prevents misunderstandings about 'everything included'."
+          ]
+        },
+        {
+          "heading": "Our boundary is explicit",
+          "paragraphs": [
+            "Podcast Audio Desk's public $99 pilot and $399 four-episode arrangement are audio-only. Video editing and social clips are not included. We can assess whether the audio finishing portion fits even when a client uses video elsewhere."
+          ]
+        }
+      ],
+      "cta": {
+        "heading": "Compare scope, not just the headline price",
+        "description": "The $99 option is for bounded audio post-production, not unlimited editing, video clips, publishing or badly damaged source restoration.",
+        "label": "Review exact pricing",
+        "url": "https://philipairlind-hub.github.io/podcast-audio-desk/podcast-editing-pricing/"
+      },
+      "art_title": "AUDIO ≠ VIDEO",
+      "art_tag": "AUDIO ONLY"
+    }
+  ]
+}
